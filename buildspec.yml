@@ -3,6 +3,3 @@ os: linux
 files:
   - source: index.html
     destination: /tmp
-artifacts:
-  files:
-    - '**/*'
