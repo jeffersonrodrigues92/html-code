@@ -2,4 +2,4 @@ version: 0.2
 os: linux
 files:
   - source: index.html
-    destination: /tmp
+    destination: /
