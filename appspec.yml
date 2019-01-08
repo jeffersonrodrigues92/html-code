@@ -17,6 +17,6 @@ hooks:
       runas: root
    Install:
     - echo Installing application...
-   AfterInstall:
+   AfterInstall: 
     - location: scripts/startapache.sh
       runas: root
