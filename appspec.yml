@@ -15,8 +15,6 @@ hooks:
    BeforeInstall:
     - location: scripts/stopapache.sh
       runas: root
-   Install:
-    - echo Installing application...
    AfterInstall: 
     - location: scripts/startapache.sh
       runas: root
