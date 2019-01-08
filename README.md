@@ -1,4 +1,7 @@
 #Instructions
+
+Doc AWS: https://docs.aws.amazon.com/pt_br/codedeploy/latest/userguide/codedeploy-agent-operations-install-linux.html 
+
 1.) When server is booted run the following commands as root.
 
 yum -y update
