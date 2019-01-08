@@ -3,7 +3,6 @@ os: linux
 files:
    - source: /
      destination: /var/www/html
-     overwrite: true
 permissions:
    - object: /var/www/html
      pattern: "**"
@@ -15,7 +14,7 @@ permissions:
 hooks:   
    BeforeInstall:
     - location: scripts/stopapache.sh
-    - location: scripts/stopapache.sh
+    - location: scripts/removeapache.sh
       runas: root
    AfterInstall: 
     - location: scripts/startapache.sh
